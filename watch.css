@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box ;
+}
+body{
+    background-image: url(wt3.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    opacity: 2.0;
+    padding: 25px;
+    width: 600px;
+    text-align: center;
+    position: fixed;
+    left: 400px;
+}
+.container p{
+    border-radius: 20px;
+    color: rgb(15, 15, 15);
+    font-size: 80px;
+}
+#stopWatchDuration{
+    font-size: 50px;
+    color:rgb(29, 26, 26);
+    padding: 40px;
+}
+.lapsButtons{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.lapsButtons button{
+    height: 30px;
+    width: 25%;
+    border-radius: 5px;
+    border: none;
+    background-color: aqua;
+    outline: none;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+#laps{
+    height: 100px;
+    padding: 5px;
+    overflow: auto;
+}
+#laps li{
+    font-size: 20px;
+    padding: 10px;
+}
+#stop,
+#reset{
+    background: red;
+}
